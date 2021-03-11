@@ -1,0 +1,97 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+h1 {
+    font-size: 3em;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    color: rgba(202, 25, 19, 0.897);
+    margin: 30px;
+}
+header img {
+    width: 700px;
+    margin-left: 32%;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+nav {
+    position: sticky;
+    z-index: 2;
+    top: 50px;
+}
+#hero {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(202, 25, 19, 0.897);
+    font-weight: bold;
+    font-family: 'Ravi Prakash', cursive;
+}
+nav ul {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    background-color: gray;
+    list-style-type: square;
+}
+nav li{
+    font-size: 1.5em;
+    text-align: center;
+    display: inline-block;
+    margin-left: 175px;
+}
+main {
+    position: relative;
+}
+.box {
+    border: 1px solid black;
+    margin: 50px;
+    width: 800px;
+    text-align: justify;
+    font-size: 1.5em;
+    position: relative;
+    border: hidden;
+}
+.box h3{
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+    margin: 5px auto;
+    color: rgba(202, 25, 19, 0.897);
+}
+.box p {
+    text-indent: 20px;
+}
+#Captain {
+    position: absolute;
+    left: 850px;
+    top: -55px;
+}
+#Thor {
+    position: absolute;
+    left: 850px;
+    top: 365px;
+}
+#Groot {
+    position: absolute;
+    left: 850px;
+    bottom: 62px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    cursor: pointer;
+    background-color: white;
+    color: red;
+}
+footer img {
+    width: 500px;
+    margin-left: 34%;
+}
