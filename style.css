@@ -1,7 +1,7 @@
 body {
     background-image: url(background.jpg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: 100% 100%;
     font-size: 16px;
     font-family: sans-serif;
@@ -12,13 +12,16 @@ h1 {
     font-family: 'Yellowtail', cursive;
     text-align: center;
     color: rgba(202, 25, 19, 0.897);
-    margin: 30px;
+    margin: 1%;
 }
 header img {
-    width: 700px;
-    margin-left: 32%;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50px;
     margin-bottom: 30px;
+    
 }
 nav {
     position: sticky;
@@ -36,14 +39,14 @@ nav {
 nav ul {
     margin-top: 20px;
     margin-bottom: 70px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.4);
     list-style-type: square;
 }
 nav li{
     font-size: 1.5em;
     text-align: center;
     display: inline-block;
-    margin-left: 175px;
+    margin-left: 10%;
 }
 main {
     position: relative;
@@ -51,7 +54,7 @@ main {
 .box {
     border: 1px solid black;
     margin: 50px;
-    width: 800px;
+    width: 40%;
     text-align: justify;
     font-size: 1.5em;
     position: relative;
@@ -60,8 +63,8 @@ main {
 .box h3{
     font-size: 2em;
     text-align: center;
-    padding: 5px;
-    margin: 5px auto;
+    padding: 1%;
+    margin: 1% auto;
     color: rgba(202, 25, 19, 0.897);
 }
 .box p {
@@ -69,18 +72,18 @@ main {
 }
 #Captain {
     position: absolute;
-    left: 850px;
-    top: -55px;
+    left: 55%;
+    top: -4%;
 }
 #Thor {
     position: absolute;
-    left: 850px;
-    top: 365px;
+    left: 55%;
+    top: 30%;
 }
 #Groot {
     position: absolute;
-    left: 850px;
-    bottom: 62px;
+    left: 55%;
+    bottom: 3%;
 }
 a {
     text-decoration: none;
@@ -93,5 +96,7 @@ a:hover {
 }
 footer img {
     width: 500px;
-    margin-left: 34%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
